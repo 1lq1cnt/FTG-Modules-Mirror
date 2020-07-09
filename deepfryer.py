@@ -45,7 +45,7 @@ def register(cb):
 class DeepfryerMod(loader.Module):
     """Module for frying images/stickers"""
     def __init__(self):
-        self.name = _("Deepfryer")
+        self.name = ("Deepfryer")
 
     async def deepfrycmd(self, message):
         """Deepfries an image or sticker, optional fry pass count."""
